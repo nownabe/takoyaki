@@ -1,0 +1,73 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+  DisplayCopNames: true
+
+Documentation:
+  Enabled: false
+
+######## Lint ########
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Lint/HandleExceptions:
+  Enabled: false
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+######## Style ########
+
+Style/AccessorMethodName:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/FormatString:
+  EnforcedStyle: percent
+
+Style/GuardClause:
+  MinBodyLength: 4
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/NumericLiterals:
+  MinDigits: 7
+
+Style/PredicateName:
+  NamePrefixBlacklist:
+    - "is_"
+    - "have_"
+
+Style/SignalException:
+  EnforcedStyle: only_raise
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/SpaceAroundOperators:
+  AllowForAlignment: true
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/TrailingCommaInLiteral:
+  Enabled: false
