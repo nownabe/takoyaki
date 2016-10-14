@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift("../../lib", __FILE__)
+require "takoyaki/runner"
+
+Takoyaki::Runner.new(ARGV).run

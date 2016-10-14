@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["nownabe"]
   spec.email         = ["nownabe@gmail.com"]
 
-  spec.summary       = "Your activities on GitHub"
+  spec.summary       = "Activities on GitHub"
   spec.homepage      = "https://github.com/nownabe/takoyaki"
   spec.license       = "MIT"
 
@@ -20,9 +20,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.12"
+  spec.add_development_dependency "pry"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
 
-  spec.dependency "thor"
-  spec.dependency "octokit"
+  spec.add_dependency "octokit"
 end
