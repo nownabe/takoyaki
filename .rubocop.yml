@@ -71,3 +71,7 @@ Style/StringLiterals:
 
 Style/TrailingCommaInLiteral:
   Enabled: false
+
+######## Metrics ########
+Metrics/LineLength:
+  Max: 100
