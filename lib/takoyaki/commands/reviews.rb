@@ -62,6 +62,7 @@ module Takoyaki
       def output
         output_reviews = only_me? ? filtered_reviews : reviews
         output_reviews.each do |repo, prs|
+          next if prs.empty?
           puts "### #{repo}"
           prs.each { |pr| puts format_pr(pr) }
         end
