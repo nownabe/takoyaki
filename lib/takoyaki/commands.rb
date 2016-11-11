@@ -6,3 +6,4 @@ module Takoyaki
 end
 
 require "takoyaki/commands/activities"
+require "takoyaki/commands/reviews"

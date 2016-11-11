@@ -21,10 +21,15 @@ repositories:
     - repo4
 ```
 
-Run `tkyk` command:
-
+### Activities
 ```bash
 $ tkyk activities
+```
+
+### Code Reviews
+```bash
+$ tkyk reviews     # only your reviews
+$ tkyk reviews all # all open pull requests
 ```
 
 ## Contributing

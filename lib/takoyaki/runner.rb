@@ -19,6 +19,8 @@ module Takoyaki
       case command
       when "activities"
         Commands::Activities.new.execute
+      when "reviews"
+        Commands::Reviews.new(*args[1..-1]).execute
       end
     end
 
