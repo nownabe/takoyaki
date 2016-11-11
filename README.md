@@ -7,7 +7,7 @@ gem install takoyaki
 ```
 
 ## Usage
-Put configuration file `.takoyaki.yml` into home directory.
+Put configuration file `.takoyaki.yaml` into home directory.
 
 ```yaml
 ---
