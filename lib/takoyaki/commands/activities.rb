@@ -54,6 +54,8 @@ module Takoyaki
         end
       end
 
+      private
+
       def client
         @client ||= Octokit::Client.new(access_token: config["access_token"])
       end
