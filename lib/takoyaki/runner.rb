@@ -3,8 +3,6 @@
 require "yaml"
 require "octokit"
 
-require "pry"
-
 require "takoyaki/commands"
 
 module Takoyaki

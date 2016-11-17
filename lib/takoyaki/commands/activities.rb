@@ -37,7 +37,7 @@ module Takoyaki
             repo_events[event.repo.name][event.payload.pull_request.number] = event
           when "CreateEvent", "DeleteEvent", "PushEvent"
           else
-            binding.pry
+            $stderr.puts "UnknownEventType"
           end
         end
         repo_events.each do |repo, events|
